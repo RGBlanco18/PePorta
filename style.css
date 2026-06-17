@@ -63,18 +63,17 @@ footer {
 }
 
 footer a {
-    color: #00ccff;
+    color: #0084ff;
     text-decoration: none;
 }
 
 @media (max-width: 600px) {
-    
     .cards-grid {
-        grid-template-columns: 1fr; /* en celular una sola columna */
+        grid-template-columns: 1fr;
     }
 
     h1 {
-        font-size: 1.2rem; /* el título más pequeño */
+        font-size: 1.2rem;
     }
 
     img {
@@ -83,6 +82,6 @@ footer a {
     }
 
     body {
-        margin: 10px; /* menos margen en celular */
+        margin: 10px;
     }
 }
