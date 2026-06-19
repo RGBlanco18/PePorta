@@ -46,7 +46,7 @@ body {
 
     .cards-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     max-width: 900px;
     margin: 30px auto;
@@ -54,15 +54,45 @@ body {
     flex: 1;
 }
 
-footer {
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #2a2a2b;
+    padding: 14px 20px;
+    z-index: 100;
+    margin: -20px -20px 0 -20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav ul a:hover {
+    color: #ffffff;
+}
+
+.contact-section {
     background-color: #2a2a2b;
     text-align: center;
     padding: 30px;
     margin-top: 40px;
     color: #ffffff;
+    border-radius: 10px;
+    max-width: 860px;
+    margin: 20px auto 40px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.884);
 }
 
-footer a {
+.contact-section a {
     color: #0084ff;
     text-decoration: none;
 }
