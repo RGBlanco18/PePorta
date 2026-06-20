@@ -41,7 +41,7 @@ nav {
     background-color: #262626d2;
     padding: 14px 20px;
     z-index: 100;
-    margin: -10px -10px 0 -10px;
+    width: 100%;
 }
 
 nav ul {
@@ -110,10 +110,6 @@ nav ul a:hover {
     img {
         width: 200px;
         height: 200px;
-    }
-
-    nav {
-        margin: -20px -20px 0 -20px;
     }
 
     nav ul {
